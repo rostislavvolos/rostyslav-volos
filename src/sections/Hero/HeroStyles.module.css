@@ -10,6 +10,7 @@
   
   .container .hero {
     max-width: 200px;
+    margin: 0;
   }
   
   .container span {
@@ -87,6 +88,7 @@
     }
 
     .container .hero {
+      margin-left: 60px;
       max-width: 350px;
       width: 350px;
     }
@@ -94,7 +96,8 @@
 
   @media (width >= 1400px) {
     .container .hero {
-      max-width: 400px;
-      width: 400px;
+      margin-left: 80px;
+      max-width: 380px;
+      width: 380px;
     }
   }
